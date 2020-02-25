@@ -4,6 +4,7 @@
 #include <iostream>
 #include <time.h>
 #include <cstdlib>
+#include <iomanip>
 #define MAX_NUM 1000 // Define the maximum random number. Cannot be a decimal. To make a decimal, input two extra 00s and then after the execution divide by 100.
 
 using namespace std;
@@ -16,13 +17,11 @@ void RNG()
 
     for (int i = 0; i <= 10; i++)
     {
-        random = rand() % MAX_NUM;
+        random = rand(); //% MAX_NUM;
         cout << "First number: " << random << endl;
         randomF = random / 100;
-        cout << "First random number in decimal: $" << randomF << endl;
-        
-       // cout << "i is: " << i << endl; --------------- Testing what value i was after increase.
-
+        cout << "First random number in decimal: " << fixed <<setprecision(2) << randomF << endl; //This line includes the 'fixed...setprecision' line. This forces it to use 2 decimal places.
+       
     }
 }
 

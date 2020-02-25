@@ -1,3 +1,3 @@
 ﻿  RNG.cpp
-G:\C++\_Andy\RNG\RNG\RNG.cpp(15,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+G:\C++\_Andy\RNG\RNG\RNG.cpp(16,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
   RNG.vcxproj -> G:\C++\_Andy\RNG\Debug\RNG.exe
