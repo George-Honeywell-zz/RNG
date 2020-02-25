@@ -30,6 +30,8 @@ int main()
 {
     cout << "The random numbers are: " << endl;
     RNG();
+    cout << "That's it for the RNG, see you next time." << endl;
     return 0;
+
 }
 
